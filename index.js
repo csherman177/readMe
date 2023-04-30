@@ -56,7 +56,7 @@ const questions = [
     {
         type: 'list',
         name: 'license',
-        choices: ['GitHub', 'Apache', 'NPM', 'N/A']
+        choices: ['MIT', 'Apache', 'NPM', 'N/A']
     },
 ];
 

@@ -2,7 +2,7 @@
 // If there is no license, return an empty string
 //shields.io = website for badges
 function renderLicenseBadge(license) {
-  if (license==="GitHub") { 
+  if (license==="MIT") { 
     return "![MIT](https://img.shields.io/badge/license-MIT-green)";
   }
   else if (license==="Apache") { 
@@ -22,7 +22,7 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 //choosealicense.com
 function renderLicenseLink(license) {
-  if (license === "GitHub") {
+  if (license === "MIT") {
     return "https://choosealicense.com/licenses/mit/#"
   }
   else if (license==="Apache") { 
@@ -46,34 +46,41 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `##${data.title} 
-   ${data.license}
-   ${renderLicenseBadge(data.license)}
-   ${renderLicenseLink(data.license)}
-   ${renderLicenseSection(data.license)}
-
+  return `## Title: ${data.title} 
+  ${data.license} <br/>
+     ${renderLicenseBadge(data.license)} <br/>
+     ${renderLicenseLink(data.license)} <br/>
+     ${renderLicenseSection(data.license)} <br/>
+  
   ## Description
-  ${data.description}
-
+    ${data.description}
+  
+  ## Table of Contents 
+  
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Testing](#credits)
+  - [License](#license)
+  - [Contact Information](#license)
+  
   ## Installation
-  ${data.installation}
-
-  ## User Story
+   ${data.installation}
+  
+  ## Usage   
   ${data.usage}
-
+  
+  ## License
+  ${data.license}
+  
+  ## How to Contribute
+  ${data.contributor}
+  
   ## Tests
   ${data.test}
-
-  ##License
-  ${data.license}
-
-  ## Contributors
-  ${data.contributor}
-
+  
   ## Contact Information
   ${data.gitHub}
   ${data.email}
-
 `;
 }
 
