@@ -1,11 +1,11 @@
-## Title: 1 
-  MIT <br/>
-     ![MIT](https://img.shields.io/badge/license-MIT-green) <br/>
-     https://choosealicense.com/licenses/mit/# <br/>
-     undefined <br/>
+## Title: Read Me Ninja "Empty String" 
+  N/A <br/>
+      <br/>
+      <br/>
+      <br/>
   
   ## Description
-    2
+    Descrption
   
   ## Table of Contents 
   
@@ -16,20 +16,20 @@
   - [Contact Information](#license)
   
   ## Installation
-   3
+   Installation
   
   ## Usage   
-  4
+  Usage
   
   ## License
-  MIT
+  N/A
   
   ## How to Contribute
-  6
+  Courtney
   
   ## Tests
-  5
+  Test
   
   ## Contact Information
-  7
-  8
+  csherman177
+  csherman177@gmail.com

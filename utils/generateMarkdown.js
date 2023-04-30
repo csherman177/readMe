@@ -31,18 +31,26 @@ function renderLicenseLink(license) {
   else if (license==="NPM") { 
     return "https://choosealicense.com/licenses/bsl-1.0/"
   }
-  else if (license==="N/A") {
-    return ['']
+   else if (license==="N/A") {
+     return "";
+   }
+};
+
+//TODO: Create a function that returns the license section of README
+ //If there is no license, return an empty string
+ function renderLicenseSection(license) {
+  switch (license) {
+    case "MIT":
+      return "This project is licensed under the MIT license.";
+    case "Apache":
+      return "This project is licensed under the Apache License 2.0.";
+    case "NPM":
+      return "This project is licensed under the BSL-1.0 license.";
+    default:
+      return "";
   }
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {
-  if (license === "N/A") {
-  return [''];
-  }
-}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
