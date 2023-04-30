@@ -24,6 +24,16 @@
   
   ## Contributors
   Courtney Sherman 
+
+  ## Screenshot
+  <table>
+  <tr>
+    <td>readMeNinja</td>
+  </tr>
+  <tr>
+    <td><img src= "./readMeFile.png" height=300 alt="Screenshot of readMeNinja"></td>
+  </tr>
+  </table>
   
   ## Contact Information
   Git Hub: csherman177
