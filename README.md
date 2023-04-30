@@ -1,11 +1,10 @@
-## Title: Read Me Ninja "Empty String" 
-  N/A <br/>
-      <br/>
-      <br/>
-      <br/>
+## Title: Read Me Ninja 
   
   ## Description
-    Descrption
+    As a developer
+    I WANT a README generator
+    SO THAT I an quickly create a professional README for a new project
+
   
   ## Table of Contents 
   
@@ -16,20 +15,16 @@
   - [Contact Information](#license)
   
   ## Installation
-   Installation
-  
+   In order to install, you will need to have VSCode and also node.js installed on your machine.
+     
   ## Usage   
-  Usage
+  1. In order to use, you will call node index.js
+  2. Go through all of the prompts in your terminal.
+  3. The text entered will be appended to you html file.
   
-  ## License
-  N/A
-  
-  ## How to Contribute
-  Courtney
-  
-  ## Tests
-  Test
+  ## Contributors
+  Courtney Sherman 
   
   ## Contact Information
-  csherman177
-  csherman177@gmail.com
+  Git Hub: csherman177
+  Email: csherman177@gmail.com
